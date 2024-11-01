@@ -20,7 +20,7 @@
 
 
 ## Описаниее функций
-### [circle.py](https://github.com/salt-caramel/geometric_lib/edit/labwork_2/docs/README.md):
+### [circle.py](https://github.com/salt-caramel/geometric_lib/edit/labwork_2/circle.py):
 - *area* получает на вход радиус окружности, возвращает площадь окружности с принимаем адресом
    - Пример:\
     input: 10    output: 314
@@ -28,7 +28,7 @@
   - Пример:\
     input: 100      output: 628
 
-### [rectangle.py](https://github.com/salt-caramel/geometric_lib/edit/labwork_2/docs/README.md):
+### [rectangle.py](https://github.com/salt-caramel/geometric_lib/edit/labwork_2/rectangle.py):
 - *area* получает на вход длину и ширину прямоугольника, возвращает площадь площадь прямоугольника 
   - Пример:\
     input: 5, 2        output: 10
@@ -36,7 +36,7 @@
    - Пример:\
      input: 5, 2        output: 14
 
-### [square.py](https://github.com/salt-caramel/geometric_lib/edit/labwork_2/docs/README.md):
+### [square.py](https://github.com/salt-caramel/geometric_lib/edit/labwork_2/square.py):
 - *area* получает на вход сторону квадрата, возвращает площадь квадрата
    - Пример:\
      input: 3    output: 9
@@ -44,7 +44,7 @@
    - Пример:\
      input: 3    output: 12
 
-### [triangle.py](https://github.com/salt-caramel/geometric_lib/edit/labwork_2/docs/README.md):
+### [triangle.py](https://github.com/salt-caramel/geometric_lib/edit/labwork_2/triangle.py):
 - *area* получает на вход основание и высоту треугольника, возвращает площадь треугольника
    - Пример:\
      input: 3, 6        output: 9
