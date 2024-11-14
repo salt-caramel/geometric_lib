@@ -12,7 +12,7 @@ def area(r):
     return math.pi * r * r
 
 
-def perimeter(r):
+def perimetr(r):
     '''
     Функция принимает число r и возвращает длину окружности с радиусом r
 

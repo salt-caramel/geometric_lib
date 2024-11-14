@@ -11,7 +11,7 @@ def area(a):
     return a * a
 
 
-def perimeter(a):
+def perimetr(a):
     '''
     Функция принимает число a и возвращает gthbvtnh квадрата со стороной a
     

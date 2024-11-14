@@ -17,7 +17,7 @@ def area(a, b):
     '''
     return a * b 
 
-def perimeter(a, b): 
+def perimetr(a, b): 
     '''
     Функция возвращает значение периметра прямоугольника 
 

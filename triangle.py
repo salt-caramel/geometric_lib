@@ -16,7 +16,7 @@ def area(a, h):
     '''
     return a * h / 2 
 
-def perimeter(a, b, c): 
+def perimetr(a, b, c): 
     '''
     Функция возвращает значение периметра  треугольника 
 
