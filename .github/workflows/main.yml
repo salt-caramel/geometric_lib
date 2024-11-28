@@ -7,8 +7,7 @@ on:
 jobs:
   job1:
     build:
-      Test:
-        name: unit-tests
+      name: unit-tests
         runs-on: [ubuntu-latest, windows-latest]
         steps:
           - name: check-out repository
