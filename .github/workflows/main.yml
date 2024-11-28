@@ -8,10 +8,10 @@ jobs:
   job1:
     test:
       build:
+        runs-on: ${{ matrix.os }}   
         strategy:
           matrix:
-            os: [ubuntu-latest, windows-latest]  
-        runs-on: ${{ matrix.os }}        
+            os: [ubuntu-latest, windows-latest]       
         steps:
           - name: check-out repository
             uses: actions/checkout@v3
