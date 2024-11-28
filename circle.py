@@ -9,8 +9,8 @@ def area(r):
     
     '''
 
+
     return math.pi * r * r
-    
 
 
 def perimetr(r):
@@ -20,5 +20,6 @@ def perimetr(r):
     Пример:
             input: 100      output: 628
     '''
+    
     return 2 * math.pi * r
 
