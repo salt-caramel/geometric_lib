@@ -5,15 +5,22 @@ on:
       - 'labwork_5'  
 
 jobs:
-  Test:
-    name: unit-tests
-    runs-on: [ubuntu-latest, windows-latest]
-    steps:
-      - name: check-out repository
-        uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.8'
-      - name: to do tests
-        run: python -m unittest tests.py
+  build:
+    Test:
+      name: unit-tests
+      runs-on: [ubuntu-latest, windows-latest]
+
+      steps:
+        - name: check-out repository
+          uses: actions/checkout@v3
+
+        - name: Set up Python
+          uses: actions/setup-python@v4
+          with:
+            python-version: 3.8
+          
+        - name: Upgrade libs
+          run: python -m pip install --upgrade pip requests
+
+        - name: to do tests
+          run: python -m unittest tests.py
